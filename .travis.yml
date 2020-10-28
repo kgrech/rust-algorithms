@@ -1,0 +1,4 @@
+language: rust
+script:
+  - cd 001_two_sum && cargo test --verbose --workspace
+
