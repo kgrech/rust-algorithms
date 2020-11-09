@@ -1,4 +1,6 @@
 language: rust
 script:
   - cd 001_two_sum && cargo test --verbose --workspace
+  - cd ../002_container-with-most-water && cargo test --verbose --workspace
+  - cd ../003_trapping_rain_water && cargo test --verbose --workspace
 
